@@ -1,0 +1,52 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "qcom_a300_pfp.fw",
+    src: "a300_pfp.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "qcom_a300_pm4.fw",
+    src: "a300_pm4.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "qcom_a530_pfp.fw",
+    src: "a530_pfp.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "qcom_a530_pm4.fw",
+    src: "a530_pm4.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "qcom_a630_gmu.bin",
+    src: "a630_gmu.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "qcom_a630_sqe.fw",
+    src: "a630_sqe.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
