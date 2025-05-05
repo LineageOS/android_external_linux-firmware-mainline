@@ -22,6 +22,30 @@
       },
       "revId": "f3a66a2493232a363d4681be3c047bd5c5439719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e46de2d9_4fbc6e61",
+        "filename": "firmware/qcom/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-05-05T20:50:06Z",
+      "side": 1,
+      "message": "I would think that would be a good idea.",
+      "parentUuid": "0a8f1593_9037de6d",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 24
+      },
+      "revId": "f3a66a2493232a363d4681be3c047bd5c5439719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
