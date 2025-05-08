@@ -46,6 +46,30 @@
       },
       "revId": "f3a66a2493232a363d4681be3c047bd5c5439719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00df43cd_80db6116",
+        "filename": "firmware/qcom/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-08T11:55:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e46de2d9_4fbc6e61",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 24
+      },
+      "revId": "f3a66a2493232a363d4681be3c047bd5c5439719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
