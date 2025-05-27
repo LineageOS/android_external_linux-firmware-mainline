@@ -20,6 +20,22 @@ prebuilt_firmware {
 }
 
 prebuilt_firmware {
+    name: "firmware_qcom_a420_pfp.fw",
+    src: "a420_pfp.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "firmware_qcom_a420_pm4.fw",
+    src: "a420_pm4.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
     name: "firmware_qcom_a530_pfp.fw",
     src: "a530_pfp.fw",
     filename_from_src: true,
