@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "wireless-regdb_regulatory.db",
+    src: "regulatory.db",
+    filename_from_src: true,
+    soc_specific: true,
+}
+
+prebuilt_firmware {
+    name: "wireless-regdb_regulatory.db.p7s",
+    src: "regulatory.db.p7s",
+    filename_from_src: true,
+    soc_specific: true,
+}
