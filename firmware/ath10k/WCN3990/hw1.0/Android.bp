@@ -1,0 +1,20 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "firmware_ath10k_WCN3990_hw1.0_board-2.bin",
+    src: "board-2.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath10k/WCN3990/hw1.0",
+}
+
+prebuilt_firmware {
+    name: "firmware_ath10k_WCN3990_hw1.0_firmware-5.bin",
+    src: "firmware-5.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath10k/WCN3990/hw1.0",
+}
