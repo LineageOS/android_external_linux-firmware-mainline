@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "firmware_qcom_sm7325_a660_zap.mbn",
+    src: "a660_zap.mbn",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom/sm7325",
+}
