@@ -1,0 +1,20 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "firmware_ath11k_WCN6750_hw1.0_board-2.bin",
+    src: "board-2.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath11k/WCN6750/hw1.0",
+}
+
+prebuilt_firmware {
+    name: "firmware_ath11k_WCN6750_hw1.0_sc7280_wpss.mbn",
+    src: "sc7280/wpss.mbn",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath11k/WCN6750/hw1.0/sc7280",
+}
