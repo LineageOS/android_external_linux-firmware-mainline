@@ -16,6 +16,24 @@
       "message": "isn\u0027t zap firmware always device-specific?",
       "revId": "eb35d55978d5834eb5625f0bf09c755c44fc4094",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fc4667b_e0bfc5e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-08-28T08:01:04Z",
+      "side": 1,
+      "message": "or good definition on device tree only?",
+      "parentUuid": "eb0b77c7_6b437c62",
+      "revId": "eb35d55978d5834eb5625f0bf09c755c44fc4094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
