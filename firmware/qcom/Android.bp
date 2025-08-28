@@ -66,3 +66,19 @@ prebuilt_firmware {
     soc_specific: true,
     sub_dir: "qcom",
 }
+
+prebuilt_firmware {
+    name: "firmware_qcom_a660_gmu.bin",
+    src: "a660_gmu.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
+
+prebuilt_firmware {
+    name: "firmware_qcom_a660_sqe.fw",
+    src: "a660_sqe.fw",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "qcom",
+}
