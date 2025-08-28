@@ -34,6 +34,24 @@
       "parentUuid": "eb0b77c7_6b437c62",
       "revId": "eb35d55978d5834eb5625f0bf09c755c44fc4094",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "450a0fc6_31038bcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2025-08-28T08:21:44Z",
+      "side": 1,
+      "message": "\u003e isn\u0027t zap firmware always device-specific?\n\nYes, needs to be signed because of secure boot.",
+      "parentUuid": "7fc4667b_e0bfc5e0",
+      "revId": "eb35d55978d5834eb5625f0bf09c755c44fc4094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
