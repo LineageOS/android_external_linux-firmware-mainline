@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50a5a968_b5badf42",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-08-30T17:15:50Z",
+      "side": 1,
+      "message": "move this to Android.bp in sc7280 subdir",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
