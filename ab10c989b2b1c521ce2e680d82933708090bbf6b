@@ -16,6 +16,24 @@
       "message": "move this to Android.bp in sc7280 subdir",
       "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b78ba95_3be74572",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-08-31T07:13:36Z",
+      "side": 1,
+      "message": "i  need add QCM6490 too, they share same board-2.bin but different wpss.bin cannot work each other",
+      "parentUuid": "50a5a968_b5badf42",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
