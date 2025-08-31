@@ -70,6 +70,24 @@
       "parentUuid": "793acea4_dc08be64",
       "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89cb171d_63d8b0a2",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-08-31T14:40:10Z",
+      "side": 1,
+      "message": "I still don\u0027t understand.\n\nIf there will be the following files:\n\n```\npath: firmware/ath11k/WCN6750/hw1.0/sc7280/wpss.mbn\nmodule name: firmware_ath11k_WCN6750_hw1.0_sc7280_wpss.mbn\n```\n```\npath: firmware/ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn\nmodule name: firmware_ath11k_WCN6750_hw1.0_qcm6490_wpss.mbn\n```\n\ncan\u0027t you have their Android.bp entry in each corresponding subdirs?\ni.e.\n```\nfirmware/ath11k/WCN6750/hw1.0/sc7280/Android.bp\nfirmware/ath11k/WCN6750/hw1.0/qcm6490/Android.bp\n```",
+      "parentUuid": "57a1a9eb_57f00f91",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
