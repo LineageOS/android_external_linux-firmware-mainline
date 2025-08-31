@@ -52,6 +52,24 @@
       "parentUuid": "3b78ba95_3be74572",
       "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57a1a9eb_57f00f91",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-08-31T10:55:00Z",
+      "side": 1,
+      "message": "device specific like andreno zap based on this https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/commit/?id\u003d048795eef35036cb200cc4049f920c149eb31753",
+      "parentUuid": "793acea4_dc08be64",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
