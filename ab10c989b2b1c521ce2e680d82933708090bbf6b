@@ -142,6 +142,24 @@
       "parentUuid": "e827c202_c5c46ad8",
       "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "753fd0ed_e1b74ebc",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-01T09:55:59Z",
+      "side": 1,
+      "message": "see what I\u0027ve changed, and the new commit, isn\u0027t this possible and better",
+      "parentUuid": "6c9a8c95_5b7d7ad3",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
