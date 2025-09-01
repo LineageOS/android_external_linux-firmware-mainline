@@ -160,6 +160,24 @@
       "parentUuid": "6c9a8c95_5b7d7ad3",
       "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19499d82_9db60d28",
+        "filename": "firmware/ath11k/WCN6750/hw1.0/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-09-01T16:37:38Z",
+      "side": 1,
+      "message": "nice",
+      "parentUuid": "753fd0ed_e1b74ebc",
+      "revId": "ab10c989b2b1c521ce2e680d82933708090bbf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
