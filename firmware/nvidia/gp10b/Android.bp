@@ -1,0 +1,60 @@
+// Copyright (C) 2025 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+prebuilt_firmware {
+    name: "linux_firmware_nvidia-gp10b",
+    visibility: ["//external/linux-firmware-mainline:__subpackages__"],
+    licenses: ["linux_firmware_nvidia_license"],
+    srcs: [
+        "acr/bl.bin",
+        "acr/ucode_load.bin",
+        "gr/fecs_bl.bin",
+        "gr/fecs_data.bin",
+        "gr/fecs_inst.bin",
+        "gr/fecs_sig.bin",
+        "gr/gpccs_bl.bin",
+        "gr/gpccs_data.bin",
+        "gr/gpccs_inst.bin",
+        "gr/gpccs_sig.bin",
+        "gr/sw_bundle_init.bin",
+        "gr/sw_ctx.bin",
+        "gr/sw_method_init.bin",
+        "gr/sw_nonctx.bin",
+        "pmu/desc.bin",
+        "pmu/image.bin",
+        "pmu/sig.bin",
+    ],
+    dsts: [
+        "nvidia/gp10b/acr/bl.bin",
+        "nvidia/gp10b/acr/ucode_load.bin",
+        "nvidia/gp10b/gr/fecs_bl.bin",
+        "nvidia/gp10b/gr/fecs_data.bin",
+        "nvidia/gp10b/gr/fecs_inst.bin",
+        "nvidia/gp10b/gr/fecs_sig.bin",
+        "nvidia/gp10b/gr/gpccs_bl.bin",
+        "nvidia/gp10b/gr/gpccs_data.bin",
+        "nvidia/gp10b/gr/gpccs_inst.bin",
+        "nvidia/gp10b/gr/gpccs_sig.bin",
+        "nvidia/gp10b/gr/sw_bundle_init.bin",
+        "nvidia/gp10b/gr/sw_ctx.bin",
+        "nvidia/gp10b/gr/sw_method_init.bin",
+        "nvidia/gp10b/gr/sw_nonctx.bin",
+        "nvidia/gp10b/pmu/desc.bin",
+        "nvidia/gp10b/pmu/image.bin",
+        "nvidia/gp10b/pmu/sig.bin",
+    ],
+    vendor: true,
+    required: [],
+}
