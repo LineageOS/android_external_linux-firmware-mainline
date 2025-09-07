@@ -43,6 +43,8 @@ For the files:
 - tegra124/xusb.bin
 - tegra186/vic04_ucode.bin
 - tegra186/xusb.bin
+- tegra194/vic.bin
+- tegra194/xusb.bin
 - tegra210/vic04_ucode.bin
 - tegra210/xusb.bin
 
