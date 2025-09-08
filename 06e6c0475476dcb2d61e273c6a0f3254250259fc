@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab444d56_999d20d8",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-08T19:19:45Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1c41cf2b_ea80b9c8",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "24a97afd_9ed36f72",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "See previous. I could trim stuff down, I suppose. Was trying to keep as one-to-one with the baseline.",
       "parentUuid": "24a97afd_9ed36f72",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45ef3f4c_567a87e9",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-08T19:19:45Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "db68852a_fc319cdd",
       "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
