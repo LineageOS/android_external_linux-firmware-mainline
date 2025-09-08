@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ffab153_dce8af4e",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-08T19:05:54Z",
+      "side": 1,
+      "message": "why?",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24a97afd_9ed36f72",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-08T19:05:54Z",
+      "side": 1,
+      "message": "the whole chain has a lot of this",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
