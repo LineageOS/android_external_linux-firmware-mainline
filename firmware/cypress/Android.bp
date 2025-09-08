@@ -35,3 +35,19 @@ prebuilt_firmware {
     vendor: true,
     required: [],
 }
+
+prebuilt_firmware {
+    name: "linux_firmware_cypress-bcm4356",
+    visibility: ["//external/linux-firmware-mainline:__subpackages__"],
+    licenses: ["linux_firmware_brcm_license"],
+    srcs: [
+        "cyfmac4356-pcie.bin",
+        "cyfmac4356-pcie.clm_blob",
+    ],
+    dsts: [
+        "brcm/brcmfmac4356-pcie.bin",
+        "brcm/brcmfmac4356-pcie.clm_blob",
+    ],
+    vendor: true,
+    required: [],
+}
