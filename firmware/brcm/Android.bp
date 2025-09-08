@@ -37,3 +37,17 @@ prebuilt_firmware {
     vendor: true,
     required: [],
 }
+
+prebuilt_firmware {
+    name: "linux_firmware_brcm-bcm4354-nvidia_nvram",
+    visibility: ["//external/linux-firmware-mainline:__subpackages__"],
+    licenses: ["linux_firmware_brcm_license"],
+    srcs: [
+        "brcmfmac4354-sdio.nvidia,p2371-2180.txt",
+    ],
+    dsts: [
+        "brcm/brcmfmac4354-sdio.nvidia,p2371-2180.txt",
+    ],
+    vendor: true,
+    required: [],
+}
