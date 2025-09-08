@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1c41cf2b_ea80b9c8",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2025-09-08T19:19:08Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/external/linux-firmware/+/refs/tags/android-16.0.0_r1/rtw88-rtw8822c/Android.bp\nBasing off these auto-generated files. I could switch to Lineage copyright. We don\u0027t always do that when copying aosp, though.",
+      "parentUuid": "8ffab153_dce8af4e",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "24a97afd_9ed36f72",
         "filename": "firmware/brcm/Android.bp",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2025-09-08T19:05:54Z",
       "side": 1,
       "message": "the whole chain has a lot of this",
+      "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db68852a_fc319cdd",
+        "filename": "firmware/brcm/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2025-09-08T19:19:08Z",
+      "side": 1,
+      "message": "See previous. I could trim stuff down, I suppose. Was trying to keep as one-to-one with the baseline.",
+      "parentUuid": "24a97afd_9ed36f72",
       "revId": "06e6c0475476dcb2d61e273c6a0f3254250259fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
