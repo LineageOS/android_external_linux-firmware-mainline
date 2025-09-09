@@ -4,7 +4,7 @@
 //
 
 prebuilt_firmware {
-    name: "firmware_qcom_venus-1.8_venus.mbn",
+    name: "linux_firmware_qcom-venus-1.8",
     src: "venus.mbn",
     filename_from_src: true,
     soc_specific: true,

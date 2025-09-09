@@ -4,65 +4,57 @@
 //
 
 prebuilt_firmware {
-    name: "firmware_qcom_a300_pfp.fw",
-    src: "a300_pfp.fw",
-    filename_from_src: true,
+    name: "linux_firmware_qcom-a300",
+    srcs: [
+        "a300_pfp.fw",
+        "a300_pm4.fw",
+    ],
+    dsts: [
+        "a300_pfp.fw",
+        "a300_pm4.fw",
+    ],
+    relative_install_path: "qcom",
     soc_specific: true,
-    sub_dir: "qcom",
 }
 
 prebuilt_firmware {
-    name: "firmware_qcom_a300_pm4.fw",
-    src: "a300_pm4.fw",
-    filename_from_src: true,
+    name: "linux_firmware_qcom-a420",
+    srcs: [
+        "a420_pfp.fw",
+        "a420_pm4.fw",
+    ],
+    dsts: [
+        "a420_pfp.fw",
+        "a420_pm4.fw",
+    ],
+    relative_install_path: "qcom",
     soc_specific: true,
-    sub_dir: "qcom",
 }
 
 prebuilt_firmware {
-    name: "firmware_qcom_a420_pfp.fw",
-    src: "a420_pfp.fw",
-    filename_from_src: true,
+    name: "linux_firmware_qcom-a530",
+    srcs: [
+        "a530_pfp.fw",
+        "a530_pm4.fw",
+    ],
+    dsts: [
+        "a530_pfp.fw",
+        "a530_pm4.fw",
+    ],
+    relative_install_path: "qcom",
     soc_specific: true,
-    sub_dir: "qcom",
 }
 
 prebuilt_firmware {
-    name: "firmware_qcom_a420_pm4.fw",
-    src: "a420_pm4.fw",
-    filename_from_src: true,
+    name: "linux_firmware_qcom-a630",
+    srcs: [
+        "a630_gmu.bin",
+        "a630_sqe.fw",
+    ],
+    dsts: [
+        "a630_gmu.bin",
+        "a630_sqe.fw",
+    ],
+    relative_install_path: "qcom",
     soc_specific: true,
-    sub_dir: "qcom",
-}
-
-prebuilt_firmware {
-    name: "firmware_qcom_a530_pfp.fw",
-    src: "a530_pfp.fw",
-    filename_from_src: true,
-    soc_specific: true,
-    sub_dir: "qcom",
-}
-
-prebuilt_firmware {
-    name: "firmware_qcom_a530_pm4.fw",
-    src: "a530_pm4.fw",
-    filename_from_src: true,
-    soc_specific: true,
-    sub_dir: "qcom",
-}
-
-prebuilt_firmware {
-    name: "firmware_qcom_a630_gmu.bin",
-    src: "a630_gmu.bin",
-    filename_from_src: true,
-    soc_specific: true,
-    sub_dir: "qcom",
-}
-
-prebuilt_firmware {
-    name: "firmware_qcom_a630_sqe.fw",
-    src: "a630_sqe.fw",
-    filename_from_src: true,
-    soc_specific: true,
-    sub_dir: "qcom",
 }
