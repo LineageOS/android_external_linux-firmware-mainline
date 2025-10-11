@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e19bd544_43b80273",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2025-10-11T04:56:37Z",
+      "side": 1,
+      "message": "Needed by various tegra devices with built-in pcie ethernet.",
+      "revId": "02901d2fcdfabd9ce1ac31044926c81787b29d45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
