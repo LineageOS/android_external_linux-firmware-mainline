@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18100d6_ae18594c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-21T06:18:28Z",
+      "side": 1,
+      "message": "uhh, for generic PC targets it might make more sense to copy literally the entire upstream linux-firmware repo, or even just bind mount /lib/firmware from linux distro installation to /vendor/firmware?",
+      "revId": "5ef6e5d514a653af67182d9309977baeebdad36b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
