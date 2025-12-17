@@ -58,3 +58,20 @@ prebuilt_firmware {
     relative_install_path: "qcom",
     soc_specific: true,
 }
+
+prebuilt_firmware {
+    name: "linux_firmware_qcom-a740",
+    srcs: [
+        "sm8550/a740_zap.mbn",
+        "a740_sqe.fw",
+        "gmu_gen70200.bin",
+    ],
+    dsts: [
+        "sm8550/a740_zap.mbn",
+        "a740_sqe.fw",
+        "gmu_gen70200.bin",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+    vendor_ramdisk_available: true,
+}
