@@ -1,0 +1,28 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "firmware_ath11k_QCA6390_hw2.0_amss.bin",
+    src: "amss.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath11k/QCA6390/hw2.0",
+}
+
+prebuilt_firmware {
+    name: "firmware_ath11k_QCA6390_hw2.0_board-2.bin",
+    src: "board-2.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath11k/QCA6390/hw2.0",
+}
+
+prebuilt_firmware {
+    name: "firmware_ath11k_QCA6390_hw2.0_m3.bin",
+    src: "m3.bin",
+    filename_from_src: true,
+    soc_specific: true,
+    sub_dir: "ath11k/QCA6390/hw2.0",
+}
