@@ -58,3 +58,17 @@ prebuilt_firmware {
     relative_install_path: "qcom",
     soc_specific: true,
 }
+
+prebuilt_firmware {
+    name: "linux_firmware_qcom-a650",
+    srcs: [
+        "a650_gmu.bin",
+        "a650_sqe.fw",
+    ],
+    dsts: [
+        "a650_gmu.bin",
+        "a650_sqe.fw",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+}
