@@ -18,3 +18,22 @@ prebuilt_firmware {
     soc_specific: true,
     sub_dir: "qca",
 }
+
+prebuilt_firmware {
+    name: "linux_firmware_qca-wcn785x",
+    visibility: ["//external/linux-firmware-mainline:__subpackages__"],
+    srcs: [
+        "hmtbtfw20.tlv",
+        "hmtnv20.b10f",
+        "hmtnv20.b112",
+        "hmtnv20.bin",
+    ],
+    dsts: [
+        "qca/hmtbtfw20.tlv",
+        "qca/hmtnv20.b10f",
+        "qca/hmtnv20.b112",
+        "qca/hmtnv20.bin",
+    ],
+    vendor: true,
+    required: [],
+}
