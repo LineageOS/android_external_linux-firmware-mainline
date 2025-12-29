@@ -14,18 +14,36 @@
 //
 
 prebuilt_firmware {
+    name: "linux_firmware_ath12k-wcn7850-board2",
+    visibility: ["//external/linux-firmware-mainline:__subpackages__"],
+    srcs: [
+        "WCN7850/hw2.0/board-2.bin",
+    ],
+    dsts: [
+        "ath12k/WCN7850/hw2.0/board-2.bin",
+    ],
+    vendor: true,
+    required: [],
+    enabled: select(soong_config_variable("linux_firmware_mainline", "use_product_specific_ath_board2"), {
+        true: false,
+        default: true,
+    }),
+}
+
+prebuilt_firmware {
     name: "linux_firmware_ath12k-wcn7850",
     visibility: ["//external/linux-firmware-mainline:__subpackages__"],
     srcs: [
         "WCN7850/hw2.0/amss.bin",
-        "WCN7850/hw2.0/board-2.bin",
         "WCN7850/hw2.0/m3.bin",
     ],
     dsts: [
         "ath12k/WCN7850/hw2.0/amss.bin",
-        "ath12k/WCN7850/hw2.0/board-2.bin",
         "ath12k/WCN7850/hw2.0/m3.bin",
     ],
     vendor: true,
-    required: [],
+    required: select(soong_config_variable("linux_firmware_mainline", "use_product_specific_ath_board2"), {
+        true: [],
+        default: ["linux_firmware_ath12k-wcn7850-board2"],
+    }),
 }
