@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01294405_a96c2cee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-01-04T20:22:10Z",
+      "side": 1,
+      "message": "Verified on ayn thor. Bluetooth does not work when the firmware is loaded, but that is not a problem with the firmware itself.",
+      "revId": "96412313cd0bdd1a246e92bf0daa2524d95994e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
