@@ -29,11 +29,12 @@ prebuilt_firmware {
         "hmtnv20.bin",
     ],
     dsts: [
-        "qca/hmtbtfw20.tlv",
-        "qca/hmtnv20.b10f",
-        "qca/hmtnv20.b112",
-        "qca/hmtnv20.bin",
+        "hmtbtfw20.tlv",
+        "hmtnv20.b10f",
+        "hmtnv20.b112",
+        "hmtnv20.bin",
     ],
+    relative_install_path: "qca",
     vendor: true,
     required: [],
 }
