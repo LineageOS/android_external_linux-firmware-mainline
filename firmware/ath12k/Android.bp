@@ -25,8 +25,9 @@ prebuilt_firmware {
         "WCN7850/hw2.0/board-2.bin",
     ],
     dsts: [
-        "ath12k/WCN7850/hw2.0/board-2.bin",
+        "WCN7850/hw2.0/board-2.bin",
     ],
+    relative_install_path: "ath12k",
     vendor: true,
     required: [],
     enabled: select(soong_config_variable("linux_firmware_mainline", "use_product_specific_ath_board2"), {
@@ -43,9 +44,10 @@ prebuilt_firmware {
         "WCN7850/hw2.0/m3.bin",
     ],
     dsts: [
-        "ath12k/WCN7850/hw2.0/amss.bin",
-        "ath12k/WCN7850/hw2.0/m3.bin",
+        "WCN7850/hw2.0/amss.bin",
+        "WCN7850/hw2.0/m3.bin",
     ],
+    relative_install_path: "ath12k",
     vendor: true,
     required: select(soong_config_variable("linux_firmware_mainline", "use_product_specific_ath_board2"), {
         true: [],
