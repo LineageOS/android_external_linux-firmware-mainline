@@ -1,0 +1,44 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_firmware {
+    name: "linux_firmware_meson-vdec",
+    srcs: [
+        "g12a_h264.bin",
+        "g12a_hevc_mmu.bin",
+        "g12a_vp9.bin",
+        "gxbb_h264.bin",
+        "gxl_h263.bin",
+        "gxl_h264.bin",
+        "gxl_hevc.bin",
+        "gxl_hevc_mmu.bin",
+        "gxl_mjpeg.bin",
+        "gxl_mpeg4_5.bin",
+        "gxl_mpeg12.bin",
+        "gxl_vp9.bin",
+        "gxm_h264.bin",
+        "sm1_hevc_mmu.bin",
+        "sm1_vp9_mmu.bin",
+    ],
+    dsts: [
+        "g12a_h264.bin",
+        "g12a_hevc_mmu.bin",
+        "g12a_vp9.bin",
+        "gxbb_h264.bin",
+        "gxl_h263.bin",
+        "gxl_h264.bin",
+        "gxl_hevc.bin",
+        "gxl_hevc_mmu.bin",
+        "gxl_mjpeg.bin",
+        "gxl_mpeg4_5.bin",
+        "gxl_mpeg12.bin",
+        "gxl_vp9.bin",
+        "gxm_h264.bin",
+        "sm1_hevc_mmu.bin",
+        "sm1_vp9_mmu.bin",
+    ],
+    relative_install_path: "meson/vdec",
+    soc_specific: true,
+}
