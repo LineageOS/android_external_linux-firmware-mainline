@@ -76,6 +76,25 @@ prebuilt_firmware {
     vendor_ramdisk_available: true,
 }
 
+prebuilt_firmware {
+    name: "linux_firmware_qcom-a830",
+    srcs: [
+        "sm8750/gen80000_zap.mbn",
+        "gen80000_aqe.fw",
+        "gen80000_gmu.bin",
+        "gen80000_sqe.fw",
+    ],
+    dsts: [
+        "sm8750/gen80000_zap.mbn",
+        "gen80000_aqe.fw",
+        "gen80000_gmu.bin",
+        "gen80000_sqe.fw",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+    vendor_ramdisk_available: true,
+}
+
 install_symlink {
     name: "linux_firmware_qcom_vpu30_p4-symlink-1",
     visibility: ["//visibility:private"],
