@@ -120,3 +120,29 @@ prebuilt_firmware {
         "linux_firmware_qcom_vpu30_p4-symlink-1",
     ],
 }
+
+install_symlink {
+    name: "linux_firmware_qcom_vpu35_p4-symlink-1",
+    visibility: ["//visibility:private"],
+    symlink_target: "vpu35_p4_s7.mbn",
+    installed_location: "firmware/qcom/vpu/vpu35_p4.mbn",
+    vendor: true,
+}
+
+prebuilt_firmware {
+    name: "linux_firmware_qcom-sm8750",
+    srcs: [
+        "vpu/vpu35_p4_s7.mbn",
+    ],
+    dsts: [
+        "vpu/vpu35_p4_s7.mbn",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+    required: [
+        "linux_firmware_ath12k-wcn7850",
+        "linux_firmware_qca-wcn785x",
+        "linux_firmware_qcom-a830",
+        "linux_firmware_qcom_vpu35_p4-symlink-1",
+    ],
+}
