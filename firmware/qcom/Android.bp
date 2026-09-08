@@ -60,6 +60,23 @@ prebuilt_firmware {
 }
 
 prebuilt_firmware {
+    name: "linux_firmware_qcom-a722",
+    srcs: [
+        "eliza/gen71700_zap.mbn",
+        "gen71700_sqe.fw",
+        "gen71700_gmu.bin",
+    ],
+    dsts: [
+        "eliza/gen71700_zap.mbn",
+        "gen71700_sqe.fw",
+        "gen71700_gmu.bin",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_firmware {
     name: "linux_firmware_qcom-a740",
     srcs: [
         "sm8550/a740_zap.mbn",
