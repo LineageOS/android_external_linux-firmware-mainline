@@ -112,6 +112,21 @@ prebuilt_firmware {
     vendor_ramdisk_available: true,
 }
 
+prebuilt_firmware {
+    name: "linux_firmware_qcom-sm7750",
+    srcs: [
+        "vpu/vpu33_p2_s7.mbn",
+    ],
+    dsts: [
+        "vpu/vpu33_p2_s7.mbn",
+    ],
+    relative_install_path: "qcom",
+    soc_specific: true,
+    required: [
+        "linux_firmware_qcom-a722",
+    ],
+}
+
 install_symlink {
     name: "linux_firmware_qcom_vpu30_p4-symlink-1",
     visibility: ["//visibility:private"],
