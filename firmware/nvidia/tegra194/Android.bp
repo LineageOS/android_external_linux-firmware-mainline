@@ -18,10 +18,16 @@ prebuilt_firmware {
     visibility: ["//external/linux-firmware-mainline:__subpackages__"],
     licenses: ["linux_firmware_nvidia_license"],
     srcs: [
+        "nvdec.bin",
+        "nvenc.bin",
+        "nvjpg.bin",
         "vic.bin",
         "xusb.bin",
     ],
     dsts: [
+        "nvidia/tegra194/nvdec.bin",
+        "nvidia/tegra194/nvenc.bin",
+        "nvidia/tegra194/nvjpg.bin",
         "nvidia/tegra194/vic.bin",
         "nvidia/tegra194/xusb.bin",
     ],
